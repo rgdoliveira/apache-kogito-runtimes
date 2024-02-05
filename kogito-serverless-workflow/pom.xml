@@ -53,8 +53,6 @@
     <module>kogito-serverless-workflow-utils</module>
     <module>kogito-jsonpath-expression</module>
     <module>kogito-jq-expression</module>
-    <module>kogito-serverless-workflow-executor</module>
-    <module>kogito-serverless-workflow-executor-tests</module>
   </modules>
 
   <profiles>
