@@ -557,7 +557,6 @@
         <groupId>org.kie.kogito</groupId>
         <artifactId>kogito-addons-jobs-management-common</artifactId>
         <version>${project.version}</version>
-        <type>jar</type>
       </dependency>
       <dependency>
         <groupId>org.kie.kogito</groupId>
@@ -587,7 +586,6 @@
         <groupId>org.kie.kogito</groupId>
         <artifactId>kogito-addons-quarkus-jobs-common-messaging</artifactId>
         <version>${project.version}</version>
-        <type>jar</type>
       </dependency>
 
       <dependency>
@@ -688,7 +686,6 @@
         <groupId>org.kie.kogito</groupId>
         <artifactId>kogito-addons-quarkus-data-index-health</artifactId>
         <version>${project.version}</version>
-        <type>jar</type>
         <classifier>sources</classifier>
       </dependency>
       <dependency>
