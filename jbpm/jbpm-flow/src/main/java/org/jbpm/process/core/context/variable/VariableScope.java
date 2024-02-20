@@ -24,7 +24,6 @@ import java.util.List;
 
 import org.jbpm.process.core.Context;
 import org.jbpm.process.core.context.AbstractContext;
-import org.kie.kogito.internal.utils.KogitoTags;
 
 public class VariableScope extends AbstractContext {
 
@@ -111,7 +110,7 @@ public class VariableScope extends AbstractContext {
         Variable v = findVariable(name);
 
         if (v != null) {
-            return v.hasTag(KogitoTags.READONLY_TAG);
+            return v.hasTag(Variable.READONLY_TAG);
         }
         return false;
     }
@@ -120,7 +119,7 @@ public class VariableScope extends AbstractContext {
         Variable v = findVariable(name);
 
         if (v != null) {
-            return v.hasTag(KogitoTags.REQUIRED_TAG);
+            return v.hasTag(Variable.REQUIRED_TAG);
         }
         return false;
     }

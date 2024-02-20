@@ -31,7 +31,6 @@ import org.jbpm.process.core.context.variable.Variable;
 import org.kie.kogito.codegen.Generated;
 import org.kie.kogito.codegen.VariableInfo;
 import org.kie.kogito.internal.process.runtime.KogitoWorkflowProcess;
-import org.kie.kogito.internal.utils.KogitoTags;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.github.javaparser.ast.CompilationUnit;
@@ -238,7 +237,7 @@ public class ModelMetaData {
         if (supportsValidation) {
             fd.addAnnotation("jakarta.validation.Valid");
 
-            if (tags != null && tags.contains(KogitoTags.REQUIRED_TAG)) {
+            if (tags != null && tags.contains(Variable.REQUIRED_TAG)) {
                 fd.addAnnotation("jakarta.validation.constraints.NotNull");
             }
         }
