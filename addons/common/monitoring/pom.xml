@@ -34,8 +34,6 @@
   <description>Monitoring addons for runtime</description>
   <modules>
     <module>core</module>
-    <module>prometheus</module>
-    <module>elastic</module>
   </modules>
 
 </project>
