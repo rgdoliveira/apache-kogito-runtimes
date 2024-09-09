@@ -161,8 +161,6 @@
     <module>addons</module>
     <module>kogito-workitems</module>
     <module>kogito-serverless-workflow</module>
-    <module>kogito-maven-plugin</module>
-    <module>springboot</module>
   </modules>
 
   <profiles>
